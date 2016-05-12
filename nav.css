@@ -24,3 +24,17 @@ p{
     
 }
 
+#little{
+    font-size:25px;
+}
+#big{
+    font-size:30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+#flick{
+    padding-top :14px;
+    padding-left: 100px;
+    
+    
+}
