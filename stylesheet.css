@@ -1,3 +1,14 @@
 .test {
     background-image: url("aid1535340-728px-Work-from-Home-Doing-Medical-Billing-and-Coding-Step-3-Version-2.jpg")
 }
+
+#myCarousel {
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
+
+#cool {
+    background-color: blue;
+}
