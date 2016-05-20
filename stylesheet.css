@@ -9,5 +9,7 @@
 }
 
 #myCarousel {
+    position: relative;
     margin: 0 auto;
+    top: 50px;
 }
