@@ -2,11 +2,9 @@
 <html>
 
 <head>
-
-
   <head>
-    <link rel="stylesheet" type="text/css" href="nav.css">
-  </head>
+<link rel="stylesheet" type="text/css" href="nav.css">
+</head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SEP</title>
@@ -18,154 +16,57 @@
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+ <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <!--custom-->
-  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="nav.css">
   <script src="script.js"></script>
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    $(function() {
+      $('h5').click(function() {
+        alert("Ahmed Abdalla/Nour Abid");
+      });
 
+    });
+    
+  </script>
 </head>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">SEPHow</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="opportunities.html">Opportunities</a></li>
-        <li><a id="grade" href="gradecategories.html">Grade Categories</a></li>
-        <li><a href="graduates.html">Graduates</a></li>
-        <li><a href="pastprojects.html">Years</a></li>
-        <li><a href="wycd.html">Gallery</a></li>
-
-      </ul>
+   <div id="home-img">
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SEPHow</a>
     </div>
-  </nav>
-  <h1>Gallery</h1>
-  <br><br><br> 
-  <h2>Take a look at some of our students working hard in SEP.</h2>
-  <br><br><br><br><br><br>
-  <section id="photos">
-    <img src="images/img12.JPG" alt="img12 ">
-    <img src="images/img13.JPG" alt="img13 ">
-    <img src="images/img14.JPG" alt="img14 ">
-  
-  </section>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+       <li><a href="opportunities.html">Opportunities</a></li>
+      <li><a id="grade" href="gradecategories.html">Grade Categories</a></li>
+      <li><a href="graduates.html">Students</a></li>
+    <li><a href="pastprojects.html">Years</a></li>
+    <li><a href="wycd.html">Gallery</a></li>
 
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+   
+  <h3 id="big">Perfect SEP Student Guide</h3>
+  <p id ="little">Your start in staying on top of your Software Engineering Career.</p>
+</div>
+ 
+ <div class="container">
+  Your #1 guide to everything Software Engineering Program 
+ </div>
+   <img id="flick" src="seppicture.JPG" height="600" width="1500" >
+    <h5>Click here to find out the name of the creators of this page</h5>
+    </div>
 </body>
 
 </html>
-
-    <head>
-        <link rel="stylesheet" type="text/css" href="nav.css">
-    </head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SEP</title>
-    <link rel="shortcut icon" href="img/hot-air-balloon-clipart.png">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <!--custom-->
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="nav.css">
-    <script src="script.js"></script>
-</head>
-
-<body>
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">SEPHow</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="opportunities.html">Opportunities</a></li>
-                <li><a id="grade" href="gradecategories.html">Grade Categories</a></li>
-                <li><a href="graduates.html">Students</a></li>
-                <li><a href="pastprojects.html">Years</a></li>
-                <li><a href="wycd.html">What You Can Do</a></li>
-
-            </ul>
-        </div>
-    </nav>
-
-    <nav class="navbar navbar-inverse" data-spy="affix">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-    </nav>
-
-    <br>
-    <br>
-
-    <a id="gallery"></a>
-
-
-    <hr>
-    <div id="myCarousel" class="carousel slide" style="width: 600px; height: 500px; bottom:-50px; ">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/img11.JPG" alt="img11.JPG" class="img-rounded">
-            </div>
-
-            <div class="item">
-                <img src="images/img12.JPG" alt="img2" class="img-rounded">
-            </div>
-
-            <div class="item">
-                <img src="images/img13.JPG" alt="img3" class="img-rounded">
-            </div>
-
-            <div class="item">
-                <img src="images/img14.JPG" alt="img4" class="img-rounded">
-            </div>
-
-        </div>
-    </div>
-
-
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-
-    </div>
-
