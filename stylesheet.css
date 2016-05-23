@@ -7,7 +7,9 @@
 }
 
 #myCarousel {
+    position: relative;
     margin: 0 auto;
+
 }
 
 .h3 {
