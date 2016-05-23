@@ -2,12 +2,69 @@
     background-image: url("aid1535340-728px-Work-from-Home-Doing-Medical-Billing-and-Coding-Step-3-Version-2.jpg")
 }
 
-
-
 #cool {
     background-color: blue;
 }
 
 #myCarousel {
     margin: 0 auto;
+}
+
+.h3 {
+    color: red;
+    font-size: 20px;
+    font-family: arial;
+}
+
+body {
+    position: relative;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 320px) {
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
+.navbar-brand {
+    color: red;
+    font-size: 30px;
+}
+
+#photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
+}
+
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
+
+img {
+    size: 200px;
+}
+
+h1 {
+    color: red;
 }
