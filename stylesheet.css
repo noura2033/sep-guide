@@ -1,22 +1,6 @@
-.test {
-    background-image: url("aid1535340-728px-Work-from-Home-Doing-Medical-Billing-and-Coding-Step-3-Version-2.jpg")
-}
 
-#cool {
-    background-color: blue;
-}
 
-#myCarousel {
-    position: relative;
-    margin: 0 auto;
 
-}
-
-.h3 {
-    color: red;
-    font-size: 20px;
-    font-family: arial;
-}
 
 body {
     position: relative;
@@ -67,6 +51,19 @@ img {
     size: 200px;
 }
 
-h1 {
+p {
     color: red;
+}
+body{
+    text-align: center;
+    background-color: rgb(0,115,165);
+
+}
+h1 h2 h3 h4 h5{
+    color:red;
+}
+#title{
+    color:red;
+    font-family: Ubuntu;
+    text-align:left;
 }

@@ -1,44 +1,18 @@
-p1 {
-    color: blue
-}
 
-p2{
-    color: blue
-}
-
-p3 {
-    color: blue
-    
-}
-
-p4{
-    color: blue
-}
-
-p5{
-    color: blue
-}
-
-p{
-    font-size:17px;
-    
-}
-
-#little{
-    font-size:25px;
-}
-#big{
-    font-size:30px;
-    font-style: italic;
-    text-decoration: underline;
-}
-#flick{
-    padding-top :14px;
-    padding-left: 100px;
-    
-    
-}
 
 
 .car { text-align: center }
 
+.navbar {
+    /*background-color: rgb(0,115,165);*/
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(0, 115, 165);
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(0, 115, 180);
+}
